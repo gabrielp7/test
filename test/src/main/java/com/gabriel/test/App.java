@@ -31,7 +31,7 @@ public class App
     	String original = "2016-04-05T12:12:08.646+01:00";
     	
     	SimpleDateFormat sdf =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS");
-    	SimpleDateFormat sdf2 =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss:SSSXXX");
+    	SimpleDateFormat sdf2 =  new SimpleDateFormat("yyyyddddddddddd-MM-dd'T'HH:mm:ss:SSSXXX");
     	System.out.println(original.replaceAll( "0\\z", "CDD" ));
     	
     	
